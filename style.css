@@ -163,3 +163,19 @@ img {
 .autor {
     padding: 0 4px;
 }
+@media screen and (min-width: 992px){
+    .container {
+        flex-direction: row;
+        width: 60%;
+    }
+    .logo {
+        flex-direction: row;
+    }
+    .aside {
+        width: 15%;
+    }
+    .infoaside {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
