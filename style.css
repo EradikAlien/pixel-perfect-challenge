@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+}
+
+/* Phone */
+
+.topper {
+    padding: 8px 0;
+}
+
+.navlist2 {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 0;
+    color: #14599D;
+    justify-content: space-evenly;
+
+}
+a {
+    text-decoration: none;
+    color: #14599D;
+    justify-content: space-evenly;
+}
+.container {
+    border-left: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 8px;
+} 
+
+.main-container {
+    border: 1px solid silver;
+
+
+
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+.logo {
+    display: flex;
+    color: #14599D;
+    flex-direction: column;
+}
+
+#logo1 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 9px 10px 9px 15px;
+    font-size: 13px;
+}
+
+#logo2 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 9px 10px 9px 15px;
+    font-size: 13px;
+}
+
+#logo3 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 9px 10px 9px 15px;
+    font-size: 13px;
+}
+
+#logo4 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 9px 10px 9px 15px;
+    font-size: 13px;
+}
+
+#logo5 {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 9px 10px 9px 15px;
+    font-size: 13px;
+}
+
+
+img {
+    /* height: 200px; */
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.aside {
+    border: 1px solid silver;
+    width: 70%;
+    align-items: center;
+    font-size: 14px;
+    margin: auto;
+ }
+
+ .seeall {
+    text-align: center;
+    font-weight: bold;
+ }
+
+ h3 {
+    color: #14599D;
+    font-size: 14px;
+ }
+
+ .related {
+    border: 1px solid silver;
+    padding: 4.5px 10.5px;
+    border-radius: 5px;
+ }
+
+ .list {
+    list-style: none;
+    text-align: left;
+    margin: 5px;
+    justify-content: space-evenly;
+ }
+ /* .inside {
+    position: absolute;
+ } */
+ .list2 {
+    list-style: inside;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .alternate {
+    font-size: 10px;
+    font-style: italic;
+    color: silver;
+    padding: 0 4px;
+ }
+ .blue {
+    color: #14599D;
+ }
+ .blueline {
+    color: #14599D;
+    text-decoration: underline dotted;
+ }
+ .italic {
+    font-style: italic;
+ }
+ .picture {
+    padding: 16px;
+ }
+
+.picture > p {
+    padding: 4px 0;
+}
+.content {
+    padding: 0 4px;
+}
+.autor {
+    padding: 0 4px;
+}
