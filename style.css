@@ -13,6 +13,8 @@ body {
 
 .topper {
     padding: 8px 0;
+    top: -20px;
+    position: relative;
 }
 
 .navlist2 {
@@ -89,7 +91,7 @@ h2 {
 }
 
 
-img {
+.pictim {
     /* height: 200px; */
     width: 100%;
     align-items: center;
@@ -163,7 +165,41 @@ img {
 .autor {
     padding: 0 4px;
 }
+.logo-brit {
+    width: 20%;
+}
+
+.nav-container {
+    background-color: #081C2E;
+    overflow: hidden;
+    /* height: 50px; */
+    justify-content: space-between;
+    align-items: baseline;
+    /* padding: 10px 500px 0 0; */
+}
+.nav > a {
+    color: white;
+    padding: 10px;
+}
+/* .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 500px 0 0;
+} */
+.logobrit {
+    width: 10%;
+}
 @media screen and (min-width: 992px){
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 10px 900px 0 0;
+    }
+    .logobrit {
+        width: 25%;
+    }
     .container {
         flex-direction: row;
         width: 50%;
