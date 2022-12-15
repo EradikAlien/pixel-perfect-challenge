@@ -176,6 +176,7 @@ h2 {
     justify-content: space-between;
     align-items: baseline;
     /* padding: 10px 500px 0 0; */
+    margin-bottom: 10px;
 }
 .nav > a {
     color: white;
@@ -271,5 +272,11 @@ h2 {
         width: 80%;
         margin-left: 10%;
         color: silver;
+     }
+     .navlist2 {
+        font-size: 12px;
+     }
+     .alternate {
+        font-size: 12px;
      }
 }
