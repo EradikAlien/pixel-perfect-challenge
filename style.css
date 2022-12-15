@@ -158,7 +158,7 @@ img {
     padding: 4px 0;
 }
 .content {
-    padding: 0 4px;
+    padding: 20px 4px;
 }
 .autor {
     padding: 0 4px;
@@ -166,16 +166,74 @@ img {
 @media screen and (min-width: 992px){
     .container {
         flex-direction: row;
-        width: 60%;
+        width: 50%;
+        margin: 0 356px 0 0;
+        padding: 20px;
     }
     .logo {
         flex-direction: row;
+        padding: 10px 320px 0 0;
+        justify-content: space-between;
     }
     .aside {
-        width: 15%;
+        width: 40%;
+        margin-top: 85px;
+        margin-left: 15px;
     }
     .infoaside {
         display: flex;
         flex-direction: row-reverse;
     }
+    .main-container {
+        padding: 20px 20px 20px;
+    }
+    .inside {
+        width: 60%;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .autor {
+        font-size: 12px;
+        display: inline;
+    }
+    .list2 {
+        font-size: 12px;
+        justify-content: left;
+        list-style-position: inside;
+        display: inline;
+    }
+    #logo1 {
+        font-size: 10px;
+    }
+    #logo2 {
+        font-size: 10px;
+    }
+    #logo3 {
+        font-size: 10px;
+    }
+    #logo4 {
+        font-size: 10px;
+    }
+    #logo5 {
+        font-size: 10px;
+    }
+    .related {
+        margin: 15px 25px 25px 25px;
+        padding: 15px;
+    }
+    .list {
+        padding: 0 15px;
+    }
+    li {
+        display: inline;
+    
+    }
+    .blue {
+        color: #14599D;
+     }
+     hr {
+        width: 80%;
+        margin-left: 10%;
+        color: silver;
+     }
 }
